@@ -1,0 +1,2 @@
+# Draw-Chinese-characters-with-freetype
+由于opencv不支持中文字符的绘制，转为Pillow绘制后再转为opencv格式对边缘设备的性能有一定负担，特别是处理图像实时检测任务时。此项目使用freetype库避免了格式的转换，缩短了时间
